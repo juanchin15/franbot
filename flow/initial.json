@@ -1,0 +1,87 @@
+[
+    {
+        "keywords":  [
+            "hola",
+            "hola!",
+            "ola",
+            "buenas",
+            "buenos días",
+            "buenas tardes",
+            "buenas noches",
+            "me dieron este número"
+        ],
+        "key": "STEP_1"
+    },
+    {
+        "keywords":  [
+            "alquilar una inmediacion:"        ],
+        "key": "STEP_2"
+    },
+    {
+        "keywords":  [
+            "parrillero"
+        ],
+        "key": "STEP_2_1"
+    },
+    {
+        "keywords":  [
+            "salon de eventos"
+        ],
+        "key": "STEP_2_2"
+    },
+    {
+        "keywords":  [
+            "generar una invitacion",
+            "invitacion"
+        ],
+        "key": "STEP_2_5"
+    },
+    {
+        "keywords":  [
+            "piscina"
+        ],
+        "key": "STEP_2_4"
+    },
+    {
+        "keywords":  [
+            "asesor",
+            "asesores",
+            "Administrador",
+            "cobrador"
+        ],
+        "key": "STEP_3"
+    },
+    {
+        "keywords":  [
+            "muchas gracias",
+            "ok",
+            "gracias",
+            "vale gracias"
+        ],
+        "key": "STEP_4"
+    },
+    {
+        "keywords":  [
+            "adios"
+        ],
+        "key": "STEP_5"
+    },
+    {
+        "keywords":  [
+            "Generar QR"
+        ],
+        "key": "STEP_6"
+    },
+    {
+        "keywords":  [
+            "Fotografia del invitado"
+        ],
+        "key": "STEP_7"
+    },
+    {
+        "keywords":  [
+            "Placa del auto"
+        ],
+        "key": "STEP_8"
+    }
+]

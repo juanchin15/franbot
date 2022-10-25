@@ -1,0 +1,131 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            
+            "Prueba escribiendo *hola* \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_0":{
+        "replyMessage":[
+            "El flujo ha finalizado \n"
+            
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_1":{
+        "replyMessage":[
+            "Hola! bienvenido a FRAN, tu asistente personal de condominio, como puedo ayudarte?"
+        ],
+        "media":null,
+        "trigger":null
+       
+        
+        
+    },
+    "STEP_2":{
+        "replyMessage":[
+            "cual de las inmediación quisiera reservar?"
+        ],
+        "actions":{
+            "buttons":[
+                {"body":"parrillero"},
+                {"body":"salon de eventos"},
+                {"body":"piscina"}
+            ]
+        },
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1":{
+        "replyMessage":[
+            "Si te interesa la palapa ingresa al calendario para ver la disponibilidad \n",
+            "https://calendly.com/juanchin15/Palapa"
+        ],
+        "media":"selfy.svg",
+        "trigger":null
+    },
+    "STEP_2_2":{
+        "replyMessage":[
+            "Si te interesa el salon de eventos ingresa al calendario para ver la disponibilidad \n",
+            "https://calendly.com/juanchin15/salon-de-eventos"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3":{
+        "replyMessage":[
+            "Tu invitado vendra en auto o entrara por el ingreso principal?"
+        ],
+        "actions":{
+            "title":"¿Como puedo audarte?",
+            "buttons":[
+                {"body":"Generar QR"},
+                {"body":"Fotografia del invitado"},
+                {"body":"Placa del auto"}
+            ]
+        },
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_5":{
+        "replyMessage":[
+            "Estamos generando la invitacion"
+        ],
+        "media":"qr-invite",
+        "trigger":null,
+        "delay": 2000
+    },
+    "STEP_2_4":{
+        "replyMessage":[
+            "Si te interesa la piscina ingresa al calendario para ver la disponibilidad \n",
+            "https://calendly.com/juanchin15/piscina"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_3":{
+        "replyMessage":[
+            "en unos instantes te comunico con el administrador"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_4":{
+        "replyMessage":[
+            "Gracias a ti! \n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_5":{
+        "replyMessage":[
+            "un gusto atenderte, hasta otra oportunidad"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_6":{
+        "replyMessage":[
+            "tu qr se está generando"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_7":{
+        "replyMessage":[
+            "La foto se esta almacenando en nuestro sistema"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_8":{
+        "replyMessage":[
+            "La placa fue almacenanda en nuestro sistema"
+        ],
+        "media":null,
+        "trigger":null
+    }
+}
